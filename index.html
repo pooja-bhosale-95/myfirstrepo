@@ -5,92 +5,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ninestar.css">
     <title>Avant-Grade</title>
-    <link rel="stylesheet" href="ninestar.css">
+
 </head>
 
 <body>
-    
-    <div class="menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger">
-            <div>
-
+    <header id="header" class="fixed-top">
+        <div class="container-nav fixed-pose">
+            <div class="logo">
+                <h1><a href="#">Avant-Grade</a></h1>
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
             </div>
-        </div>
-        <header id="header" class="fixed-top">
-            <div class="container-nav fixed-pose">
-                <div class="logo">
-                    <h1><a href="#">Avant-Grade</a></h1>
-                    <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+
+
+            <nav id="navbar" class="navbar h-nav-resp">
+
+                <ul class="navlist v-class-resp">
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li class="dropdown"><a href="#"><span>Drop Down</span> <i></i></a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
                 </div>
 
-
-                <nav id="navbar" class="navbar">
-
-                    <div>
-                        <div>
-                            <ul>
-                                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                                <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-                                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                                <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-                                <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                                <li class="dropdown"><a href="#"><span>Drop Down</span> <i
-                                            class="bi bi-chevron-down"></i></a>
-                                    <ul>
-                                        <li><a href="#">Drop Down 1</a></li>
-                                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
-                                                    class="bi bi-chevron-right"></i></a>
-                                            <ul>
-                                                <li><a href="#">Deep Drop Down 1</a></li>
-                                                <li><a href="#">Deep Drop Down 2</a></li>
-                                                <li><a href="#">Deep Drop Down 3</a></li>
-                                                <li><a href="#">Deep Drop Down 4</a></li>
-                                                <li><a href="#">Deep Drop Down 5</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Drop Down 2</a></li>
-                                        <li><a href="#">Drop Down 3</a></li>
-                                        <li><a href="#">Drop Down 4</a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-                            </ul>
-                        </div>
-                    </div>
-            
-                </nav>
-            </div>
-        </header>
-    </div>
+            </nav>
+        </div>
 
 
-    <!-- Hamburger Menu -->
-
-
-
-
-
-
-   
+        </div>
+    </header>
     <section id="hero" class="">
         <div class="container">
 
-            <div class="row">
-                <div class="col-6">
+            <div class="row column-reverse">
+                <div class="col-6 head-resp">
                     <h1>Bettter digital experience with Avant-Grade</h1>
-                    <h2>We are team of talented designers making websites</h2>
+                    <h2>We are team of talented designers making websites </h2>
 
                     <div class="hero-heading" id="hero-1">
                         <a href="#about" class="btn-get-started">Get Started</a>
                     </div>
                 </div>
 
-                <div class="col-6 order">
+                <div class="col-6">
                     <div class="hero-heading" id="hero-2">
-                        <img src="assets/img/hero-img.svg" class="img-fluid animated" alt="img-1">
+                        <img src="images/hero-img.svg" class="img-fluid animated" alt="img-1">
                     </div>
                 </div>
             </div>
@@ -144,7 +128,7 @@
                     <h2>Services</h2>
                     <p>Check out the great services we offer</p>
                 </div>
-                <div class="row col-3 align-items-strech d-flex">
+                <div class="row col-3 align-items-strech d-flex resp-services">
                     <div class="sub-row align-items">
                         <div class="icon-box">
                             <div class="icon"> <i class=""></i></div>
@@ -421,8 +405,8 @@
                     <h2>Team</h2>
                     <p>Our team is always here to help</p>
                 </div>
-                <div class="row col-3">
-                    <div class="member">
+                <div class="row col-3 ">
+                    <div class="member team-resp">
                         <img src="images/team/team-1.jpg" alt="img-12">
                         <div class="member-info">
                             <div class="member-info-content">
@@ -438,7 +422,7 @@
                         </div>
                     </div>
 
-                    <div class="member">
+                    <div class="member team-resp">
                         <img src="images/team/team-2.jpg" alt="img-13">
                         <div class="member-info">
                             <div class="member-info-content">
@@ -455,7 +439,7 @@
                     </div>
 
 
-                    <div class="member">
+                    <div class="member team-resp">
                         <img src="images/team/team-3.jpg" alt="img-14">
                         <div class="member-info">
                             <div class="member-info-content">
@@ -471,7 +455,7 @@
                         </div>
                     </div>
 
-                    <div class="member">
+                    <div class="member team-resp">
                         <img src="images/team/team-4.jpg" alt="img-15">
                         <div class="member-info">
                             <div class="member-info-content">
@@ -501,24 +485,24 @@
 
                 <div class="my-slide">
                     <div class="col-5">
-                        <img src="images/clients/client-1.png" class="img-class" alt="img-16">
+                        <img src="images/clients/client-1.png" alt="img-16">
                     </div>
                     <div class="col-5">
-                        <img src="images/clients/client-2.png" class="img-class" alt="img-17">
+                        <img src="images/clients/client-2.png" alt="img-17">
                     </div>
                     <div class="col-5">
-                        <img src="images/clients/client-3.png" class="img-class" alt="img-18">
+                        <img src="images/clients/client-3.png" alt="img-18">
                     </div>
                     <div class="col-5">
-                        <img src="images/clients/client-4.png" class="img-class" alt="img-19">
+                        <img src="images/clients/client-4.png" alt="img-19">
                     </div>
                     <div class="col-5">
-                        <img src="images/clients/client-5.png" class="img-class" alt="img-20">
+                        <img src="images/clients/client-5.png" alt="img-20">
                     </div>
-                    <!-- <div class="col-5">
+                    <div class="col-5">
                         <img src="images/clients/client-6.png" alt="img-21">
                     </div>
-                    <div class="col-5">
+                    <!-- <div class="col-5">
                         <img src="images/clients/client-7.png" alt="img-22">
                     </div>
                     <div class="col-5">
@@ -596,6 +580,7 @@
        
         </section>
         <!-- End Contact Us Section -->
+    </main>
 
         <footer id="footer">
             <div class="footer-newsletter">
@@ -617,7 +602,7 @@
 
             <div class="footer-top">
                 <div class="conatiner">
-                    <div class="row col-3 justify-content-between">
+                    <div class="row col-3 justify-content-between footer-resp">
                     
                         <div class="footer-contact extra ">
                             <h3>Avant-Grade</h3>
@@ -667,17 +652,13 @@
                     </div>
                 </div>
             </div>
-        
-    
-
-                <div class="conatiner container-footer">
-                    <div class="copyright">
-                        &copy; Copyright <strong><span>Avant-Grade</span></strong>. All Rights Reserved.
-                    </div>
+            <div class="conatiner container-footer">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Avant-Grade</span></strong>. All Rights Reserved.
                 </div>
+            </div>
         </footer>
-        <!-- End Footer -->
-
-    </main>
+    <!-- End Footer -->
+<script src="js/resp.js"></script>
 </body>
 </html>
